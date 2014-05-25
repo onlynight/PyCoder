@@ -1,0 +1,21 @@
+StatusBar{
+	background: #3F3F3F;
+	color: #FFFFFF;
+}
+
+StatusBarClickItem{
+	background: #3F3F3F;
+	border: none;
+	color: #FFFFFF;
+	border-left: 1px solid #AAAAAA;
+}
+
+StatusBarClickItem:hover{
+	background: #676767;
+}
+
+StatusBarShowItem{
+	background: #3F3F3F;
+	border: none;
+	color: #FFFFFF;
+}

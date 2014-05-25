@@ -1,0 +1,25 @@
+<RCC>
+  <qresource>
+    <file>close.png</file>
+    <file>Coder.css</file>
+    <file>coder.png</file>
+    <file>Common.css</file>
+    <file>folder-closed.png</file>
+    <file>folder-open.png</file>
+    <file>images.py</file>
+    <file>max.png</file>
+    <file>Menu.css</file>
+    <file>min.png</file>
+    <file>PyCoder.css</file>
+    <file>res.qrc</file>
+    <file>Scintilla.css</file>
+    <file>Scrollbar.css</file>
+    <file>StatusBar.css</file>
+    <file>TitleBar.css</file>
+    <file>Tree.css</file>
+    <file>close.png</file>
+    <file>coder.png</file>
+    <file>max.png</file>
+    <file>min.png</file>
+  </qresource>
+</RCC>

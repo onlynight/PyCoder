@@ -1,0 +1,37 @@
+/* filename: common.css;
+*/
+
+QLabel {
+	height: 100px;
+	color: #FFFFFF;
+	background: #272727;
+	font-family: "微软雅黑 Light";
+}
+QMenu {
+	color: #ffffff;
+	background: #272727;
+	font-family: "微软雅黑 Light";
+}
+QMenu::item {
+	/* sets background of menu item. set this to something non-transparent
+	if you want menu color and menu item color to be different */
+	background-color: transparent;
+}
+QMenu::item:selected {
+	/* when user selects item using mouse or keyboard */
+	background-color: #939393;
+}
+
+QAction {
+	color: #ffffff;
+	background: #272727;
+}
+QAction::item {
+	/* sets background of menu item. set this to something non-transparent
+	if you want menu color and menu item color to be different */
+	background-color: transparent;
+}
+QAction::item:selected {
+	/* when user selects item using mouse or keyboard */
+	background-color: #939393;
+}

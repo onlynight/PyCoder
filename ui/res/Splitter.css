@@ -1,0 +1,19 @@
+QSplitter {
+	border: none;
+}
+
+QSplitter::handle {
+	background: #595959;
+	border: none;
+}
+
+QSplitter::handle:horizontal {
+	background: #595959;
+	width: 30px;
+}
+
+QSplitter::handle:vertical {
+	background: #595959;
+	height: 3px;
+	border: none;
+}

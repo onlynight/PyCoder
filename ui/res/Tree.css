@@ -1,0 +1,28 @@
+QTreeView {
+	show-decoration-selected: 1;
+	color: #FFFFFF;
+	border: 0px solid;
+	background: #2D2D2D;
+}
+QTreeView:hover {
+	/*border: 1px solid #C6C8C8;*/
+	border:none;
+}
+QTreeView::item:hover {
+	/*border: 1px solid #C6C8C8;*/
+	border:none;
+}
+QTreeView::item:selected {
+	background: #979797;
+	border:none;
+}
+QTreeView::branch:has-children:!has-siblings:closed, QTreeView::branch:closed:has-children:has-siblings {
+	border-image: none;
+	image: url(:/folder-closed.png);
+	background: #2D2D2D;
+}
+QTreeView::branch:open:has-children:!has-siblings, QTreeView::branch:open:has-children:has-siblings {
+	border-image: none;
+	image: url(:/folder-open.png);
+	background: #2D2D2D;
+}

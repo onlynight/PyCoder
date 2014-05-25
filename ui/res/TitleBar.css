@@ -1,0 +1,54 @@
+ContextBar{
+	background: #272727;
+}
+
+ContextBarLabel{
+	background: #272727;
+	color: #FFFFFF;
+}
+
+CloseButton{
+	image:url(ui/res/close.png);
+	background: #272727;
+	border: none;
+	color: #ffffff;
+}
+
+CloseButton::hover{
+	background: #FF0D0D;
+}
+
+CloseButton::pressed{
+	background: #7B0000
+}
+
+MinButton{
+	image:url(ui/res/min.png);
+	background: #272727;
+	border: none;
+	color: #ffffff;
+}
+
+MinButton::hover{
+	background: #7E7E7E;
+}
+
+MinButton::pressed{
+	background: #000000
+}
+
+MaxButton{
+	image:url(ui/res/max.png);
+	background: #272727;
+	border: none;
+	color: #ffffff;
+}
+
+MaxButton::hover{
+	background: #7E7E7E;
+}
+
+MaxButton::pressed{
+	background: #000000
+}
+
